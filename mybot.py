@@ -1,8 +1,11 @@
+# Import the TwitterBot class
 from twitterbot import TwitterBot
 
-USERNAME = "change_me"
-PASSWORD = "change_me"
+# create a new bot
+bot = TwitterBot("my_username", "my_secret_password")
 
-bot = TwitterBot(USERNAME, PASSWORD)
+# tweet
 bot.tweet("Hello world from python and selenium")
+
+# quit the bot and close the chrome window
 bot.quit()
