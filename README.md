@@ -3,7 +3,11 @@ Now make your own TwitterBot in python in as less as 4 lines.
 
 just simply edit make your username and password in the mybot.py and run the script. 
 
-## creating a simple bot
+## Fedora Magazine Bot - GCI Task
+#### Twitter Bot for posting articles from Fedora Magazine 
+a python script that automatically posts tweets of links of latest articles in Fedora Magazine along with their titles.
+
+## Creating a simple bot
 ```python
 # Import the TwitterBot class
 from twitterbot import TwitterBot
